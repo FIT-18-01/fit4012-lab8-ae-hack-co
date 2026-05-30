@@ -1,1 +1,0 @@
-File này sẽ được Receiver ghi đè khi chạy demo với OUTPUT_FILE=sample_output.txt.
