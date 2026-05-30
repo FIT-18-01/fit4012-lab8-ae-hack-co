@@ -4,7 +4,7 @@ from pathlib import Path
 
 from secure_transfer_utils import build_sender_payload, load_public_key, parse_secure_packet
 
-SERVER_IP = os.getenv("SERVER_IP", "127.0.0.1")
+SERVER_IP = os.getenv("SERVER_IP", "172.20.10.3")
 DATA_PORT = int(os.getenv("DATA_PORT", os.getenv("PORT", "6000")))
 RECEIVER_PUBLIC_KEY = os.getenv("RECEIVER_PUBLIC_KEY", "keys/receiver_public.pem")
 MESSAGE_ENV = os.getenv("MESSAGE")
